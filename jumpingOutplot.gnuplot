@@ -7,3 +7,9 @@ set ylabel "{/Times-New-Roman-Italic Position}"
 plot "jumpingOut.txt" using 1:2 title 'No Parachute' with lines lw 2
 
 unset output
+
+set output "jumpingOutPlotParaGNU.pdf"
+
+plot "jumpingOutPara.txt" using 1:2 title 'Parachute at 1200m' with lines lw 2
+
+unset output
